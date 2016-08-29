@@ -253,25 +253,25 @@ ColorPalette::ColorPalette(QObject *parent)
     , m_xtermColors(defaultXtermColors)
     , m_inverse_default(false)
 {
-    m_normalColors[0].setRgb(0,0,0);
-    m_normalColors[1].setRgb(194,54,33);
-    m_normalColors[2].setRgb(37,188,36);
-    m_normalColors[3].setRgb(173,173,39);
-    m_normalColors[4].setRgb(63,84,255);
-    m_normalColors[5].setRgb(211,56,211);
-    m_normalColors[6].setRgb(51,187,199);
-    m_normalColors[7].setRgb(229,229,229);
-    m_normalColors[8].setRgb(178,178,178);
-    m_normalColors[9].setRgb(0,0,0);
+    m_normalColors[0].setRgb(46,52,54);
+    m_normalColors[1].setRgb(204,0,0);
+    m_normalColors[2].setRgb(78,154,6);
+    m_normalColors[3].setRgb(196,160,0);
+    m_normalColors[4].setRgb(52,101,164);
+    m_normalColors[5].setRgb(117,80,123);
+    m_normalColors[6].setRgb(6,152,154);
+    m_normalColors[7].setRgb(211,215,207);
+    m_normalColors[8].setRgb(242,242,242);
+    m_normalColors[9].setRgb(25,25,25);
 
-    m_lightColors[0].setRgb(129,131,131);
-    m_lightColors[1].setRgb(252,57,31);
-    m_lightColors[2].setRgb(49,231,34);
-    m_lightColors[3].setRgb(234,236,35);
-    m_lightColors[4].setRgb(88,51,255);
-    m_lightColors[5].setRgb(249,53,248);
-    m_lightColors[6].setRgb(20,240,240);
-    m_lightColors[7].setRgb(233,233,233);
+    m_lightColors[0].setRgb(85,87,83);
+    m_lightColors[1].setRgb(239,41,41);
+    m_lightColors[2].setRgb(138,226,52);
+    m_lightColors[3].setRgb(252,233,79);
+    m_lightColors[4].setRgb(141,159,207);
+    m_lightColors[5].setRgb(173,127,168);
+    m_lightColors[6].setRgb(52,226,226);
+    m_lightColors[7].setRgb(238,238,236);
     m_lightColors[8].setRgb(220,220,220);
     m_lightColors[9].setRgb(50,50,50);
 
