@@ -32,6 +32,7 @@ Yat.TerminalScreen {
     property font font
     property real fontWidth: fontMetricText.paintedWidth
     property real fontHeight: fontMetricText.paintedHeight
+    property bool cursor: true
 
     font.family: screen.platformName != "cocoa" ? "monospace" : "menlo"
     anchors.fill: parent
@@ -43,7 +44,9 @@ Yat.TerminalScreen {
     }
     Component {
         id: cursorComponent
-        Yat.Cursor { }
+        Yat.Cursor {
+            visible: cursor
+        }
     }
     Shortcut {
         sequence: "Ctrl+Shift+C"
